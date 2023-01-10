@@ -1,0 +1,1067 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PurchaseOrder
+</name>
+</assembly>
+<members>
+<member name="T:SmartCard.DataSet2.VW_PO_POBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.DataSet2.VW_PO_POBILL_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.DataSet2.VW_PO_POBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.DataSet2.VW_PO_POBILL_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.DataSet2.VW_PO_POBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.DataSet2.VW_PO_POBILL_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SmartCard.DataSet2TableAdapters.VW_PO_POBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.DataSet2TableAdapters.VW_PO_POBILL_DETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SmartCard.DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartCard.DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(SmartCard.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(SmartCard.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SmartCard.DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SmartCard.DataSet2TableAdapters.TableAdapterManager.UpdateAll(SmartCard.DataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SmartCard.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SmartCard.DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SmartCard.DataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_WOBBILL1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_WOBBILL2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_VW_AMENDMENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_VW_FOLLOWUPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_DATEWISERPTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_POBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.po_browse_itemdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.wo_browse_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.hrn_detailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_HRNBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_WOBBILL1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_WOBBILL2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_VW_AMENDMENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_VW_FOLLOWUPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_DATEWISERPTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_POBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.po_browse_itemdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.wo_browse_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.hrn_detailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_HRNBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_WOBBILL1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_WOBBILL2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_VW_AMENDMENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_VW_FOLLOWUPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.PO_DATEWISERPTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_POBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.po_browse_itemdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.wo_browse_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.hrn_detailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet.VW_PO_HRNBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.MYDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.VW_PO_WOBBILL1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.VW_PO_WOBBILL2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.PO_VW_AMENDMENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.PO_VW_FOLLOWUPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.PO_DATEWISERPTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.VW_PO_POBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.po_browse_itemdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.wo_browse_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.hrn_detailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.VW_PO_HRNBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SmartCard.MYDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartCard.MYDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.MYDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartCard.MYDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.MYDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartCard.MYDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SmartCard.MYDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SmartCard.MYDataSetTableAdapters.TableAdapterManager.UpdateAll(SmartCard.MYDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SmartCard.MYDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SmartCard.ndataset.PO_VIEW_VENDOR_CATEGORYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_POBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_PO_REPORTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_HO_REPORTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_WO_REPORTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.PO_WORKINDENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_POPRINT_RPTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_POBILL_DETDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_pending_authDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_INDGRNITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_Indent_GRNDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_PO_GRNDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_POGRNITEMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_POGRNITEMS_pendingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_WOBBILL2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.ndataset.PO_VIEW_VENDOR_CATEGORYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_POBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_PO_REPORTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_HO_REPORTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_WO_REPORTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.PO_WORKINDENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_POPRINT_RPTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_POBILL_DETRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_pending_authRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_INDGRNITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_Indent_GRNRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_PO_GRNRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_POGRNITEMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_POGRNITEMS_pendingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_WOBBILL2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.ndataset.PO_VIEW_VENDOR_CATEGORYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_POBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_PO_REPORTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_HO_REPORTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.VIEW_WO_REPORTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.PO_WORKINDENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_POPRINT_RPTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_POBILL_DETRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_pending_authRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_INDGRNITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_Indent_GRNRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_PO_GRNRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_POGRNITEMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.Vw_POGRNITEMS_pendingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset.VW_PO_WOBBILL2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.ndataset">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.PO_VIEW_VENDOR_CATEGORYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.VW_PO_POBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.VIEW_PO_REPORTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.VIEW_HO_REPORTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.VIEW_WO_REPORTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.PO_WORKINDENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.VW_POPRINT_RPTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.VW_PO_POBILL_DETTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.Vw_pending_authTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.Vw_INDGRNITEMSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.Vw_Indent_GRNTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.Vw_PO_GRNTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.Vw_POGRNITEMSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.Vw_POGRNITEMS_pendingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.VW_PO_WOBBILL2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SmartCard.ndatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartCard.ndataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.ndatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartCard.ndataset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.ndatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartCard.ndataset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SmartCard.ndatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SmartCard.ndatasetTableAdapters.TableAdapterManager.UpdateAll(SmartCard.ndataset)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SmartCard.ndatasetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SmartCard.cry_kga_wo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SmartCard.kga_data.view_wo_detDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.kga_data.VIEW_HO_REPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.kga_data.PO_VIEW_PORPTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.kga_data.PO_HDRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.kga_data.view_wo_detRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.kga_data.VIEW_HO_REPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.kga_data.PO_VIEW_PORPTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.kga_data.PO_HDRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.kga_data.view_wo_detRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.kga_data.VIEW_HO_REPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.kga_data.PO_VIEW_PORPTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.kga_data.PO_HDRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.kga_data">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SmartCard.kga_dataTableAdapters.view_wo_detTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.kga_dataTableAdapters.VIEW_HO_REPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.kga_dataTableAdapters.PO_VIEW_PORPTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.kga_dataTableAdapters.PO_HDRTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SmartCard.kga_dataTableAdapters.TableAdapterManager.UpdateUpdatedRows(SmartCard.kga_data,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.kga_dataTableAdapters.TableAdapterManager.UpdateInsertedRows(SmartCard.kga_data,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SmartCard.kga_dataTableAdapters.TableAdapterManager.UpdateDeletedRows(SmartCard.kga_data,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SmartCard.kga_dataTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SmartCard.kga_dataTableAdapters.TableAdapterManager.UpdateAll(SmartCard.kga_data)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SmartCard.kga_dataTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SmartCard.kga_dataTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SmartCard.kga_dataTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:SmartCard.Indent_Register.FillGroupdetails">
+******************************  To fill GROUP DETAILS *******************************'''
+
+</member><member name="M:SmartCard.Indent_Register.FillStorename">
+******************************  To fill POS details from SupplierName  *******************************'''
+
+</member><member name="M:SmartCard.VenderPurcahase.Fillgroup">
+******************************  To fill POS details from SupplierName  *******************************'''
+
+</member><member name="P:SmartCard.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources._111in1024res">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources._Exit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources.Clear">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources.excel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources.print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SmartCard.My.Resources.Resources.view">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SmartCard.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SmartCard.FRM_PURCHASE.Fillgroup">
+******************************  To fill POS details from SupplierName  *******************************'''
+
+</member><member name="M:SmartCard.PendingPO.FillStorename">
+******************************  To fill POS details from SupplierName  *******************************'''
+
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_HRNBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_STOCKINDENTAUTH_BILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_quationinvitationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_INDENTWISE_REGISTERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VIEWHIREREGISTERSUMMARYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VIEWWORKORDERREGISTERUMMARYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_POORDERDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.INV_PENDING_PURCHASEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_PAYMENTTERMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_ITEMDETAILSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_ITEMMASTERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_OTHERTERMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_vendormasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_warrantytermsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_DELIVERYTERMSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_POBILLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_QUOTATIONINVDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_QUOTATIONINV1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBBILL1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_PORDERSUMMARYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_HRNBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_STOCKINDENTAUTH_BILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_quationinvitationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_INDENTWISE_REGISTERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VIEWHIREREGISTERSUMMARYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VIEWWORKORDERREGISTERUMMARYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_POORDERDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.INV_PENDING_PURCHASERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_PAYMENTTERMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_ITEMDETAILSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_ITEMMASTERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_OTHERTERMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_vendormasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_warrantytermsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_DELIVERYTERMSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_POBILLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_QUOTATIONINVRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_QUOTATIONINV1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBBILL1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_PORDERSUMMARYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_HRNBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_STOCKINDENTAUTH_BILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_quationinvitationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_INDENTWISE_REGISTERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.VIEWHIREREGISTERSUMMARYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.VIEWWORKORDERREGISTERUMMARYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_POORDERDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.INV_PENDING_PURCHASERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_PAYMENTTERMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_ITEMDETAILSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_ITEMMASTERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_OTHERTERMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_vendormasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.po_warrantytermsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_DELIVERYTERMSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_POBILLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_QUOTATIONINVRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_QUOTATIONINV1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.VW_PO_WOBBILL1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1.PO_VIEW_PORDERSUMMARYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SmartCard.Dataset1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VW_PO_WOBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VW_PO_HRNBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VW_PO_STOCKINDENTAUTH_BILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.po_quationinvitationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_VIEW_INDENTWISE_REGISTERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VIEWHIREREGISTERSUMMARYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VIEWWORKORDERREGISTERUMMARYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_VIEW_POORDERDETAILSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.INV_PENDING_PURCHASETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_PAYMENTTERMSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_ITEMDETAILSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_ITEMMASTERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_OTHERTERMSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.po_vendormasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.po_warrantytermsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_DELIVERYTERMSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VW_PO_WOBBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VW_PO_POBILLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_QUOTATIONINVTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.PO_QUOTATIONINV1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SmartCard.Dataset1TableAdapters.VW_PO_WOBBILL1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PurchaseOrder">
+</Property><Property Name="Solution File" Value="D:\NEW\PO_CATH_30NOV12\PurchaseOrder.sln">
+</Property><Property Name="User Options File" Value="D:\NEW\PO_CATH_30NOV12\PurchaseOrder.suo">
+</Property><Property Name="Date" Value="Thursday, July 25, 2013">
+</Property><Property Name="Time" Value="21:22 PM">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PurchaseOrder.sln" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\PurchaseOrder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PurchaseOrder.suo" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\PurchaseOrder.suo">
+</Event><Event ErrorLevel="4" Project="PurchaseOrder" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="PurchaseOrder.vbproj" Description="Project file successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\PurchaseOrder.vbproj">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="PurchaseOrder.vbproj.user" Description="Project user file successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\PurchaseOrder.vbproj.user">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="AssemblyInfo.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\CrystalReport1.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\CrystalReport1.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Dataset_Pchase.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Dataset_Pchase.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\ReportViewer.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\ReportViewer.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Rpt_Indentbill .vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Rpt_Indentbill .vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Rpt_IndentIssue .vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Rpt_IndentIssue .vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Rpt_Indentwise.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Rpt_Indentwise.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Form2.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Form2.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="frmListSearch.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\frmListSearch.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\CompanyList1.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\CompanyList1.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\Form1.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\Form1.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\frmSearch.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\frmSearch.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\GlobalClass.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\GlobalClass.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\GlobalFunction.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\GlobalFunction.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\GlobalVariables.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\GlobalVariables.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\IconsMenuMain.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\IconsMenuMain.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\List Operation.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\List Operation.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\ListOperattion1.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\ListOperattion1.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\Main MDI.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\Main MDI.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\MainModules.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\MainModules.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\ReportDesigner.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\ReportDesigner.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\shutdown.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\shutdown.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\Welcome.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\Welcome.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="GridOperation.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\GridOperation.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Deliveryterms.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Deliveryterms.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\ItemMaster.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\ItemMaster.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Otherterms.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Otherterms.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Paymentterms.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Paymentterms.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Quotation.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Quotation.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\VendorItemLink.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\VendorItemLink.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\VendorMaster.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\VendorMaster.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Warrantyterms.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Warrantyterms.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Report Class\Datewisesaleregisterdetails.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Report Class\Datewisesaleregisterdetails.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Report Class\rptPurchaseregistersummary.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Report Class\rptPurchaseregistersummary.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Report Class\rptStockPurchaseregister.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Report Class\rptStockPurchaseregister.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Report Class\rptViewAmendmentReport.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Report Class\rptViewAmendmentReport.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\frmDatewiseSalesRegister.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\frmDatewiseSalesRegister.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\frmPurchase.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\frmPurchase.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\Indent_Register.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\Indent_Register.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\report_det.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\report_det.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\rptAmendment.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\rptAmendment.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\RPVW.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\RPVW.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\Form4.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\Form4.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_HireOrder.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_HireOrder.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_HireOrderReturn.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_HireOrderReturn.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_WorkOrder.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_WorkOrder.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_WorkOrderIndent.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_WorkOrderIndent.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PurchaseOrder.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PurchaseOrder.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PurchaseOrder_SC.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PurchaseOrder_SC.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\QUOTATIONINVITATION.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\QUOTATIONINVITATION.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\quotationuploaddownload.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\quotationuploaddownload.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\StockIndentauthorization.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\StockIndentauthorization.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\StockIndentnew.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\StockIndentnew.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Utility\UserAdmin.vb" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Utility\UserAdmin.vb">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Dataset1.xsx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Dataset1.xsx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Dataset_Pchase.xsx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Dataset_Pchase.xsx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Dataset1.xsd" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Dataset1.xsd">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Dataset_Pchase.xsd" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Dataset_Pchase.xsd">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="user.ico" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\user.ico">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\ReportViewer.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\ReportViewer.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Rpt_Indentbill .rpt" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Rpt_Indentbill .rpt">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Rpt_IndentIssue .rpt" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Rpt_IndentIssue .rpt">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\Rpt_Indentwise.rpt" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\Rpt_Indentwise.rpt">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="CrystalReports\rpt_Purchase_summary.rpt" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\CrystalReports\rpt_Purchase_summary.rpt">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Form2.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Form2.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="frmListSearch.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\frmListSearch.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\CompanyList1.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\CompanyList1.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\Form1.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\Form1.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\frmSearch.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\frmSearch.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\List Operation.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\List Operation.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\ListOperattion1.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\ListOperattion1.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\Main MDI.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\Main MDI.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\ReportDesigner.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\ReportDesigner.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\shutdown.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\shutdown.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Global Class\Welcome.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Global Class\Welcome.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Deliveryterms.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Deliveryterms.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\ItemMaster.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\ItemMaster.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Otherterms.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Otherterms.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Paymentterms.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Paymentterms.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Quotation.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Quotation.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\VendorItemLink.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\VendorItemLink.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\VendorMaster.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\VendorMaster.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Masters\Warrantyterms.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Masters\Warrantyterms.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\frmDatewiseSalesRegister.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\frmDatewiseSalesRegister.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\frmPurchase.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\frmPurchase.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\Indent_Register.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\Indent_Register.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\report_det.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\report_det.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\rptAmendment.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\rptAmendment.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Reports\RPVW.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Reports\RPVW.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\Form4.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\Form4.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_HireOrder.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_HireOrder.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_HireOrderReturn.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_HireOrderReturn.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_WorkOrder.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_WorkOrder.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PO_WorkOrderIndent.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PO_WorkOrderIndent.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PurchaseOrder.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PurchaseOrder.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\PurchaseOrder_SC.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\PurchaseOrder_SC.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\QUOTATIONINVITATION.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\QUOTATIONINVITATION.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\quotationuploaddownload.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\quotationuploaddownload.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\StockIndentauthorization.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\StockIndentauthorization.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Transactions\StockIndentnew.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Transactions\StockIndentnew.resx">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="Utility\UserAdmin.resx" Description="File successfully backed up as D:\NEW\PO_CATH_30NOV12\Backup1\Utility\UserAdmin.resx">
+</Event><Event ErrorLevel="1" Project="PurchaseOrder" Source="PurchaseOrder.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="PurchaseOrder.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PurchaseOrder" Source="PurchaseOrder.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PurchaseOrder.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PurchaseOrder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PurchaseOrder" Source="PurchaseOrder.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastOpenVersion>7.10.3077</LastOpenVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ReferencePath>D:\PurchaseOrderModule\PurchaseOrder\bin\;D:\PO\PurchaseOrder\bin\;D:\PurchaseOrder 16 06 08 09 00pm\PurchaseOrder\bin\;D:\po20062008\PurchaseOrder\PurchaseOrder\bin\;I:\PurchaseOrder\bin\;F:\NIZAM\PurchaseOrder\bin\;D:\dbs\PurchaseOrder\bin\;E:\NIZAM\PurchaseOrder\bin\;E:\NIZAM\PurchaseOrder\PurchaseOrder\bin\;D:\dbs\PurchaseOrder\PurchaseOrder\bin\;F:\NIZAM\PurchaseOrder\PurchaseOrder\bin\;D:\DBS\palani\PurchaseOrder\bin\;D:\dbs\PALANI\PurchaseOrder_latest\bin\;D:\DBS\Psam\PurchaseOrder\bin\;D:\psam\SOURCES\PurchaseOrder\bin\;D:\SOURCE\SC\PurchaseOrder\bin\;E:\SAM\PurchaseOrder\bin\;E:\manick\PurchaseOrder\bin\;C:\PurchaseOrder\bin\;D:\SOURCE\SC\new\PurchaseOrder\bin\;D:\SOURCE\SC\newSC\PurchaseOrder\bin\;C:\VenuJD\RSI\PO\PO\bin\;C:\VenuJD\RSI\PO\PO_06OCT11\bin\;C:\VenuJD\RSI\PO\PO_07OCT11\bin\;C:\VenuJD\RSI\PO\PO_07NOV11\bin\;C:\VenuJD\RSI\PO\PO_RSI_20NOV11\bin\;C:\VenuJD\RSI\PO\PO_RSI_JAN12\bin\;C:\VenuJD\WORK ORDER\PO_RSI_JAN12\bin\;C:\VenuJD\WORK ORDER\PO_RSI_15MAR12\bin\;C:\VenuJD\WORK ORDER\PO_RSI_21APR12\bin\;C:\VenuJD\WORK ORDER\PO_RSI_24APR12\bin\;D:\VENUJD\VenuJD\WORK ORDER\PO_RSI_24APR12\bin\;D:\VENUJD\VenuJD\Catholic\SOURCE\PO\WORK ORDER\PO_RSI_24APR12\bin\;C:\Users\Raushan\Desktop\kga\PO_CATH_30NOV12\bin\;E:\Mohan\DBS2Mohanraju\KGA\KGA\MOHANRAJU\PO_CATH_30NOV12\bin\;C:\Documents and Settings\Dbs4\Desktop\member\</ReferencePath>
+    <CopyProjectDestinationFolder />
+    <CopyProjectUncPath />
+    <CopyProjectOption>0</CopyProjectOption>
+    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectTrust>0</ProjectTrust>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>true</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>false</StartWithIE>
+  </PropertyGroup>
+</Project>

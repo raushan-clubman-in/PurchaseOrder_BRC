@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Dataset1" targetNamespace="http://tempuri.org/Dataset1.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Dataset1.xsd" xmlns:mstns="http://tempuri.org/Dataset1.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Dataset1" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Inv_view_Pending_Indent">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Indent_no" type="xs:string" />
+							<xs:element name="indent_date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="storelocationname" type="xs:string" minOccurs="0" />
+							<xs:element name="itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="itemname" type="xs:string" minOccurs="0" />
+							<xs:element name="qty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="void" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ISSUEDETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCATIONNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VOID" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="issuesummary">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Itemdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Uom" type="xs:string" minOccurs="0" />
+							<xs:element name="Issueqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Issuerate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Issueamount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="GROUPNAME" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INV_VIEW_INPUTTAX">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GRNDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GRNDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="BILLDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BILLDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CRCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CRNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DRCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DRNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BILLAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TPER" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAMT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="STOCKISSUEDETAIL">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Docno" type="xs:string" />
+							<xs:element name="Docdetails" type="xs:string" minOccurs="0" />
+							<xs:element name="Docdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="IndentNo" type="xs:string" minOccurs="0" />
+							<xs:element name="IndentDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Storelocationcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Storelocationname" type="xs:string" minOccurs="0" />
+							<xs:element name="Opstorelocationcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Opstorelocationname" type="xs:string" minOccurs="0" />
+							<xs:element name="Itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Itemname" type="xs:string" minOccurs="0" />
+							<xs:element name="Uom" type="xs:string" minOccurs="0" />
+							<xs:element name="Qty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Dblamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Dblconv" type="xs:string" minOccurs="0" />
+							<xs:element name="Highratio" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Groupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Subgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Void" type="xs:string" minOccurs="0" />
+							<xs:element name="Avgqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Avgrate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="Adddatetime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Updateuser" type="xs:string" minOccurs="0" />
+							<xs:element name="Updatetime" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ISSUEREGISTER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="INDENTNO" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCATIONNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="GROUPDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DBLAMT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CONVVALUE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CONV" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FROMSTORENAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEWSTOCKADJUSTMENT">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="STORELOCATIONDESC" type="xs:string" />
+							<xs:element name="DOCDETAILS" type="xs:string" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="ITEMNAME" type="xs:string" />
+							<xs:element name="UOM" type="xs:string" />
+							<xs:element name="STOCKINHAND" type="xs:decimal" />
+							<xs:element name="PHYSICALSTOCK" type="xs:decimal" />
+							<xs:element name="ADJUSTEDSTOCK" type="xs:decimal" />
+							<xs:element name="RATE" type="xs:decimal" />
+							<xs:element name="AMOUNT" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEWSTOCKREGISTER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FROMSTOREDESC" type="xs:string" />
+							<xs:element name="TOSTOREDESC" type="xs:string" />
+							<xs:element name="DOCTYPE" type="xs:string" />
+							<xs:element name="CHALLENNO" type="xs:string" />
+							<xs:element name="CHALLENDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DOCDETAILS" type="xs:string" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ITEMCODE" type="xs:string" />
+							<xs:element name="ITEMNAME" type="xs:string" />
+							<xs:element name="UOM" type="xs:string" />
+							<xs:element name="QTY" type="xs:decimal" />
+							<xs:element name="RATE" type="xs:decimal" />
+							<xs:element name="AMOUNT" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Inv_view_Pending_Pur">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="pono" type="xs:string" minOccurs="0" />
+							<xs:element name="podate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="podepartment" type="xs:string" minOccurs="0" />
+							<xs:element name="povendorcode" type="xs:string" minOccurs="0" />
+							<xs:element name="itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="quantity" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="vatamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="discamt" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INVENTORYITEMMASTER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="itemcode" type="xs:string" />
+							<xs:element name="itemname" type="xs:string" />
+							<xs:element name="alias" type="xs:string" minOccurs="0" />
+							<xs:element name="groupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="groupname" type="xs:string" minOccurs="0" />
+							<xs:element name="subgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="subgroupname" type="xs:string" minOccurs="0" />
+							<xs:element name="subsubgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="subsubgroupname" type="xs:string" minOccurs="0" />
+							<xs:element name="reorderlevel" type="xs:double" minOccurs="0" />
+							<xs:element name="minqty" type="xs:double" minOccurs="0" />
+							<xs:element name="maxqty" type="xs:double" minOccurs="0" />
+							<xs:element name="valuation" type="xs:string" minOccurs="0" />
+							<xs:element name="purchaserate" type="xs:double" minOccurs="0" />
+							<xs:element name="salerate" type="xs:double" minOccurs="0" />
+							<xs:element name="stockuom" type="xs:string" minOccurs="0" />
+							<xs:element name="receiveuom" type="xs:string" minOccurs="0" />
+							<xs:element name="saleuom" type="xs:string" minOccurs="0" />
+							<xs:element name="leadtime" type="xs:decimal" minOccurs="0" />
+							<xs:element name="doubleuom" type="xs:string" minOccurs="0" />
+							<xs:element name="opstock" type="xs:double" minOccurs="0" />
+							<xs:element name="opvalue" type="xs:double" minOccurs="0" />
+							<xs:element name="convvalue" type="xs:double" minOccurs="0" />
+							<xs:element name="Freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="TypeCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="Adddate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="STORECODE" type="xs:string" minOccurs="0" />
+							<xs:element name="closingqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="closingval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rcptqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rcptval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="issueqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="issueval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="abc" type="xs:string" minOccurs="0" />
+							<xs:element name="fsm" type="xs:string" minOccurs="0" />
+							<xs:element name="prefix" type="xs:string" minOccurs="0" />
+							<xs:element name="wefdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="stkoption" type="xs:string" minOccurs="0" />
+							<xs:element name="binlocation" type="xs:string" minOccurs="0" />
+							<xs:element name="category" type="xs:string" minOccurs="0" />
+							<xs:element name="selectopt" type="xs:string" minOccurs="0" />
+							<xs:element name="STARTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PEGS" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ml" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PEGSRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OPT" type="xs:string" minOccurs="0" />
+							<xs:element name="aprdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aprdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aprcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aprcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maydrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maydrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maycrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maycrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jundrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jundrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juncrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juncrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juldrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juldrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="julcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="julcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="decdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="decdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="deccrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="deccrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jandrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jandrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jancrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jancrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mardrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mardrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="marcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="marcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="clstock" type="xs:decimal" minOccurs="0" />
+							<xs:element name="clvalue" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PO_VIEW_VENDORMASTER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="vendorcode" type="xs:string" />
+							<xs:element name="vendorname" type="xs:string" />
+							<xs:element name="address" type="xs:string" />
+							<xs:element name="city" type="xs:string" />
+							<xs:element name="state" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INV_PENDING_PURCHASE">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="pono" type="xs:string" minOccurs="0" />
+							<xs:element name="podate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="podepartment" type="xs:string" minOccurs="0" />
+							<xs:element name="povendorcode" type="xs:string" minOccurs="0" />
+							<xs:element name="itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" type="xs:string" />
+							<xs:element name="quantity" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="vatamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="discamt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VENDORNAME" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEWPURCHASEREGISTERSUMMARY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GRNDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Grndate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PONO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Supplierinvno" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SUPPLIERCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SUPPLIERNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GLACCOUNTCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GLACCOUNTNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VATAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SURCHARGEAMT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISCOUNTAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BILLAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISCOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Adddate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="AVOUCHERNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AVOUCHERDATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ADJUSTEDAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OTHCHARGE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="STORECODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="STOREDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="OverallDiscount" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="InventoryGroupMaster">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Groupcode" type="xs:string" />
+							<xs:element name="Groupdesc" type="xs:string" />
+							<xs:element name="Freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="Adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="Adddate" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="InventorySubGroupMaster">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Groupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Groupdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Subgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Subgroupdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="Adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="Adddate" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="InventorySubSubGroupMaster">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Groupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Groupdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Subgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Subgroupdesc" type="xs:string" minOccurs="0" />
+							<xs:element name="Freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="Adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="Adddate" type="xs:string" minOccurs="0" />
+							<xs:element name="subsubgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="subsubgroupdesc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="StoreMaster">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Storecode" type="xs:string" />
+							<xs:element name="Storedesc" type="xs:string" />
+							<xs:element name="Freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="adddate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Storestatus" type="xs:string" minOccurs="0" />
+							<xs:element name="OPT" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VW_INV_IDENTBILL">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="INDENT_NO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="INDENT_DATE" msdata:ReadOnly="true" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMSTORECODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="STORELOCATIONCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="STORELOCATIONNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PRODUCT_TYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="REMARKS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="updsign" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="updfooter" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CLSQTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ADDDATE" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VW_INV_ISSUEBILL">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="docdetails" type="xs:string" />
+							<xs:element name="docdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="storelocationname" type="xs:string" minOccurs="0" />
+							<xs:element name="opstorelocationname" type="xs:string" minOccurs="0" />
+							<xs:element name="itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="storelocationcode" type="xs:string" minOccurs="0" />
+							<xs:element name="opstorelocationcode" type="xs:string" minOccurs="0" />
+							<xs:element name="itemname" type="xs:string" minOccurs="0" />
+							<xs:element name="uom" type="xs:string" minOccurs="0" />
+							<xs:element name="qty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="indentno" type="xs:string" minOccurs="0" />
+							<xs:element name="indentdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="remarks" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDFOOTER" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDSIGN" type="xs:string" minOccurs="0" />
+							<xs:element name="clsqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ADDDATE" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VW_INV_STKTRFBILL">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DOCDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMSTORECODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FROMSTOREDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TOSTORECODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TOSTOREDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CHALLENNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CHALLENDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="REMARKS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDFOOTER" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDSIGN" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATE" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="vw_inv_stkajdbill">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DOCDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="STORELOCATIONCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="STORELOCATIONDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="STOCKINHAND" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PHYSICALSTOCK" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ADJUSTEDSTOCK" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="REMARKS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDFOOTER" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDSIGN" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATE" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="INVENTORYITEMMASTER1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="itemcode" type="xs:string" />
+							<xs:element name="itemname" type="xs:string" />
+							<xs:element name="alias" type="xs:string" minOccurs="0" />
+							<xs:element name="groupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="groupname" type="xs:string" minOccurs="0" />
+							<xs:element name="subgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="subgroupname" type="xs:string" minOccurs="0" />
+							<xs:element name="subsubgroupcode" type="xs:string" minOccurs="0" />
+							<xs:element name="subsubgroupname" type="xs:string" minOccurs="0" />
+							<xs:element name="reorderlevel" type="xs:double" minOccurs="0" />
+							<xs:element name="minqty" type="xs:double" minOccurs="0" />
+							<xs:element name="maxqty" type="xs:double" minOccurs="0" />
+							<xs:element name="valuation" type="xs:string" minOccurs="0" />
+							<xs:element name="purchaserate" type="xs:double" minOccurs="0" />
+							<xs:element name="salerate" type="xs:double" minOccurs="0" />
+							<xs:element name="stockuom" type="xs:string" minOccurs="0" />
+							<xs:element name="receiveuom" type="xs:string" minOccurs="0" />
+							<xs:element name="saleuom" type="xs:string" minOccurs="0" />
+							<xs:element name="leadtime" type="xs:decimal" minOccurs="0" />
+							<xs:element name="doubleuom" type="xs:string" minOccurs="0" />
+							<xs:element name="opstock" type="xs:double" minOccurs="0" />
+							<xs:element name="opvalue" type="xs:double" minOccurs="0" />
+							<xs:element name="convvalue" type="xs:double" minOccurs="0" />
+							<xs:element name="Freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="TypeCode" type="xs:string" minOccurs="0" />
+							<xs:element name="Adduser" type="xs:string" minOccurs="0" />
+							<xs:element name="Adddate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="STORECODE" type="xs:string" minOccurs="0" />
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="closingqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="closingval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rcptqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rcptval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="issueqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="issueval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="abc" type="xs:string" minOccurs="0" />
+							<xs:element name="fsm" type="xs:string" minOccurs="0" />
+							<xs:element name="prefix" type="xs:string" minOccurs="0" />
+							<xs:element name="wefdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="stkoption" type="xs:string" minOccurs="0" />
+							<xs:element name="binlocation" type="xs:string" minOccurs="0" />
+							<xs:element name="category" type="xs:string" minOccurs="0" />
+							<xs:element name="selectopt" type="xs:string" minOccurs="0" />
+							<xs:element name="STARTDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="PEGS" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ml" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PEGSRATE" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OPT" type="xs:string" minOccurs="0" />
+							<xs:element name="aprdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aprdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aprcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="aprcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maydrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maydrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maycrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="maycrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jundrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jundrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juncrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juncrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juldrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="juldrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="julcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="julcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="augcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="sepcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="octcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="novdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="decdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="decdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="deccrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="deccrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jandrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jandrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jancrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="jancrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febdrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febdrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="febcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mardrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="mardrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="marcrqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="marcrval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="clstock" type="xs:decimal" minOccurs="0" />
+							<xs:element name="clvalue" type="xs:decimal" minOccurs="0" />
+							<xs:element name="eoq" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TAXREBATE" type="xs:string" minOccurs="0" />
+							<xs:element name="baserate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="INVITMTransQty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="INVITMTransValue" type="xs:decimal" minOccurs="0" />
+							<xs:element name="INVITMStockUOM" type="xs:string" minOccurs="0" />
+							<xs:element name="INVITMTRANSRATE" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="UoMMaster">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AddDatetime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="AddUSer" type="xs:string" minOccurs="0" />
+							<xs:element name="Freeze" type="xs:string" minOccurs="0" />
+							<xs:element name="UOMCode" type="xs:string" minOccurs="0" />
+							<xs:element name="UOMDesc" type="xs:string" minOccurs="0" />
+							<xs:element name="UOMSeqno" type="xs:double" minOccurs="0" />
+							<xs:element name="CATEGORY" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VW_INV_OUTDETAILS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LOCATIONNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VOID" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FROMSTORENAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VW_INV_ISSUEBILL_qty">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="docdetails" type="xs:string" />
+							<xs:element name="docdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="storelocationname" type="xs:string" minOccurs="0" />
+							<xs:element name="opstorelocationname" type="xs:string" minOccurs="0" />
+							<xs:element name="itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="storelocationcode" type="xs:string" minOccurs="0" />
+							<xs:element name="opstorelocationcode" type="xs:string" minOccurs="0" />
+							<xs:element name="itemname" type="xs:string" minOccurs="0" />
+							<xs:element name="uom" type="xs:string" minOccurs="0" />
+							<xs:element name="qty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="rate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="clsqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="indentno" type="xs:string" minOccurs="0" />
+							<xs:element name="indentdate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="remarks" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDFOOTER" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDSIGN" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VIEWSTOCKINOUTREGISTER">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="STOREDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FROMSTOREDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TOSTOREDESC" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCTYPE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CHALLENNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CHALLENDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="DOCDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DOCDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="STOCKSUMMARY">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Autoid" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+							<xs:element name="Itemcode" type="xs:string" minOccurs="0" />
+							<xs:element name="Itemname" type="xs:string" minOccurs="0" />
+							<xs:element name="Uom" type="xs:string" minOccurs="0" />
+							<xs:element name="Valuation" type="xs:string" minOccurs="0" />
+							<xs:element name="Opqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Oprate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Opval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Rcvqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Rcvrate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Rcvval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Issqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Issrate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Issval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Clsqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Clsrate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Clsval" type="xs:decimal" minOccurs="0" />
+							<xs:element name="STORECODE" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="GROUPNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="SUBGROUPCODE" type="xs:string" minOccurs="0" />
+							<xs:element name="SUBGROUPNAME" type="xs:string" minOccurs="0" />
+							<xs:element name="pegsqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="pegs" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVQTY1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVRATE1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVVAL1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVQTY2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVRATE2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVVAL2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVQTY3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVRATE3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RCVVAL3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSQTY1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSRATE1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSVAL1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSQTY2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSRATE2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSVAL2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSQTY3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSRATE3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISSVAL3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISPQTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISPUOM" type="xs:string" minOccurs="0" />
+							<xs:element name="opdispqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ISDISPQTY" type="xs:decimal" minOccurs="0" />
+							<xs:element name="category" type="xs:string" minOccurs="0" />
+							<xs:element name="Adjqty" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Adjrate" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Adjval" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="VW_INV_GRNBILL">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AUTOID" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PONO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GRNDETAILS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GRNDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SUPPLIERCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SUPPLIERNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SUPPLIERINVNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="EXCISEPASSNO" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GLACCOUNTCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GLACCOUNTNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="TOTALAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="VATAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SURCHARGEAMT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DISCOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BILLAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ITEMCODE" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ITEMNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UOM" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="QTY" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="RATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="REMARKS" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="AMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SALERATE" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SALEAMOUNT" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ddiscount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="taxper" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="taxamount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OverallDiscount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UPDFOOTER" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UPDNAME" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ADDDATE" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UPDATETIME" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Dataset1Key1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Inv_view_Pending_Indent" />
+			<xs:field xpath="mstns:Indent_no" />
+		</xs:unique>
+		<xs:unique name="Dataset1Key2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Inv_view_Pending_Indent" />
+			<xs:field xpath="mstns:INDENT_NO" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

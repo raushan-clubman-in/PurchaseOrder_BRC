@@ -1,0 +1,447 @@
+CREATE TABLE [PO_ITEMMASTER] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[itemcode] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[itemname] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[shortname] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[uom] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[lastofferrate] [numeric](18, 2) NULL ,
+	[lastofferdate] [datetime] NULL ,
+	[currentofferrate] [numeric](18, 2) NULL ,
+	[currentofferdate] [datetime] NULL ,
+	[pomonthtodate] [datetime] NULL ,
+	[poyeartodate] [datetime] NULL ,
+	[freeze] [varchar] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adduser] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adddatetime] [datetime] NULL ,
+	[updateuser] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[updatedatetime] [datetime] NULL ,
+	[freezeuser] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freezedatetime] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_ITEMDETAILS] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[pono] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[itemcode] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[uom] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[quantity] [numeric](18, 2) NULL ,
+	[requireddate] [datetime] NULL ,
+	[rate] [numeric](18, 2) NULL ,
+	[discount] [numeric](18, 2) NULL ,
+	[vat] [numeric](18, 2) NULL ,
+	[total] [numeric](18, 2) NULL ,
+	[itemrec_tilldate] [numeric](18, 2) NULL ,
+	[value_tilldate] [numeric](18, 2) NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_IMAGEHDR] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[pono] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podate] [datetime] NULL ,
+	[poquotno] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[povendorcode] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podepartment] [varchar] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poapprovedby] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poapproveddate] [datetime] NULL ,
+	[postatus] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poed] [numeric](18, 0) NULL ,
+	[pocst] [numeric](18, 0) NULL ,
+	[pomodvat] [numeric](18, 0) NULL ,
+	[poptax] [numeric](18, 0) NULL ,
+	[pooctra] [numeric](18, 0) NULL ,
+	[poinsurance] [numeric](18, 0) NULL ,
+	[polst] [numeric](18, 0) NULL ,
+	[povalue] [numeric](18, 0) NULL ,
+	[pototalvat] [numeric](18, 0) NULL ,
+	[pototaltax] [numeric](18, 0) NULL ,
+	[poadvance] [numeric](18, 0) NULL ,
+	[pobalance] [numeric](18, 0) NULL ,
+	[poterms] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podeliveryterms] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podespatch] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poshipping] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podelivery] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pofreight] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pocstform] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pocreditdays] [numeric](18, 0) NULL ,
+	[poencl] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poremarks] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poclosure] [varchar] (28) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freeze] [varchar] (2) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adduser] [varchar] (28) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adddatetime] [datetime] NULL ,
+	[updateuser] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[updatedatetime] [datetime] NULL ,
+	[freezeuser] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freezedatetime] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_HDR] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[pono] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podate] [datetime] NULL ,
+	[poquotno] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[povendorcode] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podepartment] [varchar] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poapprovedby] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poapproveddate] [datetime] NULL ,
+	[postatus] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poed] [numeric](18, 2) NULL ,
+	[pocst] [numeric](18, 2) NULL ,
+	[pomodvat] [numeric](18, 2) NULL ,
+	[poptax] [numeric](18, 2) NULL ,
+	[pooctra] [numeric](18, 2) NULL ,
+	[poinsurance] [numeric](18, 2) NULL ,
+	[polst] [numeric](18, 2) NULL ,
+	[povalue] [numeric](18, 2) NULL ,
+	[pototalvat] [numeric](18, 2) NULL ,
+	[pototaltax] [numeric](18, 2) NULL ,
+	[poadvance] [numeric](18, 2) NULL ,
+	[pobalance] [numeric](18, 2) NULL ,
+	[poterms] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podeliveryterms] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podespatch] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poshipping] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[podelivery] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pofreight] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pocstform] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pocreditdays] [numeric](18, 0) NULL ,
+	[poencl] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poremarks] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poclosure] [varchar] (4) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freeze] [varchar] (2) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adduser] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adddatetime] [datetime] NULL ,
+	[updateuser] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[updatedatetime] [datetime] NULL ,
+	[freezeuser] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freezedatetime] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_FOLLOWUP] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[pono] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pofollowupno] [varchar] (12) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pofollowupdate] [datetime] NULL ,
+	[pofollowupdesc] [varchar] (172) COLLATE SQL_Latin1_General_CP1_CI_AS NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_deliveryterms] (
+	[Autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[deliverytermcode] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[deliverytermdesc] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freeze] [varchar] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adduser] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adddatetime] [datetime] NULL ,
+	[updateuser] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[updatedatetime] [datetime] NULL ,
+	[freezeuser] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freezedatetime] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_AMENDMENT] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[pono] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poamendmentno] [varchar] (12) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[poamendmentdate] [datetime] NULL ,
+	[poamendmentdesc] [varchar] (172) COLLATE SQL_Latin1_General_CP1_CI_AS NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_VendorMaster] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[vendorcode] [varchar] (6) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[vendortype] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[vendorname] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[shortname] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[panno] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[castno] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[lstno] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[ratings] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[licenceno] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[licencedate] [datetime] NULL ,
+	[address] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[city] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[state] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[country] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[pincode] [numeric](18, 0) NULL ,
+	[phone1] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[phone2] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[fax] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[email] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[contactperson] [varchar] (25) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[remarks] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freeze] [char] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freezeuser] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freezedatetime] [datetime] NULL ,
+	[adduser] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adddatetime] [datetime] NULL ,
+	[updateuser] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[updatedatetime] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_QuotationEntry] (
+	[autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[quotationno] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[quotationdate] [datetime] NULL ,
+	[enquiryno] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[vendor] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[quotationmode] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[vendorrefno] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[creditperiod] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[validity] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[department] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[deliveryterms] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[paymentterms] [varchar] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[remarks] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL 
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [PO_paymentterms] (
+	[Autoid] [numeric](18, 0) IDENTITY (1, 1) NOT NULL ,
+	[paymenttermcode] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[paymenttermdesc] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freeze] [varchar] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adduser] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[adddatetime] [datetime] NULL ,
+	[updateuser] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[updatedatetime] [datetime] NULL ,
+	[freezeuser] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[freezedatetime] [datetime] NULL 
+) ON [PRIMARY]
+GO
+
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
+
+
+--select * from po_hdr
+--select * from po_itemdetails
+---select * from po_datewiserpt
+CREATE     VIEW PO_DATEWISERPT 
+AS
+SELECT     ISNULL(H.pono, '') AS PONO, ISNULL(H.podate, '') AS PODATE, ISNULL(H.poquotno, '') AS POQUOTNO, ISNULL(H.poapprovedby, '') AS APPROVEDBY, 
+                      ISNULL(H.poapproveddate, '') AS APPROVEDDATE,ISNULL(H.postatus, '') AS POSTATUS,ISNULL(H.povendorcode, '') AS VENDORCODE, ISNULL(A.slname, '') AS VENDORNAME, 
+                      ISNULL(H.podepartment, '') AS DEPARTMENT, ISNULL(D.itemcode, '') AS ITEMCODE, ISNULL(I.itemname, '') AS ITEMNAME, ISNULL(D.uom, '') AS UOM, 
+                      ISNULL(D.quantity, 0) AS QUANTITY, ISNULL(D.requireddate, '') AS REQUIREDDATE, ISNULL(D.rate, 0) AS RATE, ISNULL(D.discount, 0) AS DISCOUNT, 
+                      ISNULL(D.vat,0) AS VAT, ISNULL(D.total, 0) AS TOTAL, ISNULL(H.poed, 0) AS ED, ISNULL(H.pocst, 0) AS CST, ISNULL(H.pomodvat, 0) AS MODVAT, 
+                      ISNULL(H.poptax, 0) AS PTAX, ISNULL(H.pooctra, 0) AS OCTRAI, ISNULL(H.poinsurance, 0) AS INSURANCE, ISNULL(H.polst, 0) AS LST, 
+                      ISNULL(H.pototalvat, 0) AS TOTALVAT, ISNULL(H.pototaltax, 0) AS TOTALTAX, ISNULL(H.povalue, 0) AS POVALUE,ISNULL(H.poclosure, '') AS CLOSURE,
+		      ISNULL(A.accode,'') as ACCODE
+FROM         dbo.PO_HDR H INNER JOIN
+                      dbo.PO_ITEMDETAILS D ON H.pono = D.pono AND ISNULL(H.freeze, '') <> 'Y' INNER JOIN
+                      dbo.PO_VIEW_ITEMMASTER I ON I.itemcode = D.itemcode INNER JOIN
+                      dbo.accountssubledgermaster A ON H.povendorcode = A.slcode
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
+CREATE   view PO_VIEW_ITEMMASTER
+
+as 
+
+select isnull(itemcode,'') as itemcode,isnull(itemname,'') as itemname,isnull(stockuom,'') 
+as stockuom, ISNULL(purchaserate,0) AS purchaserate
+ from inventoryitemmaster
+---SP_HELP inventoryitemmaster
+union
+
+select isnull(itemcode,'') as itemcode,isnull(itemname,'') as itemname,isnull(uom,'') as 
+stockuom, ISNULL(currentofferrate,0) AS currentofferrate from po_itemmaster
+---SP_HELP po_itemmaster
+
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+CREATE         VIEW PO_VIEW_PORDERSUMMARY
+AS
+SELECT  ISNULL(H.PONO,'') AS PONO,H.PODATE AS PODATE,ISNULL(H.POVENDORCODE,'') AS VENDORCODE,
+        ISNULL(H.PODEPARTMENT,'') AS PODEPARTMENT,ISNULL(A.VENDORNAME,'') AS VENDORNAME,ISNULL(H.POVALUE,0) AS POVALUE,
+        ISNULL(H.POTOTALVAT,0) AS POTOTALVAT,ISNULL(H.POTOTALTAX,0) AS POTOTALTAX,
+        ISNULL(H.POADVANCE,0) AS POADVANCE,ISNULL(H.POBALANCE,0) AS POBALANCE,
+	ISNULL(D.ITEMCODE,'') AS ITEMCODE,ISNULL(P.ITEMNAME,'') AS ITEMNAME,
+	ISNULL(D.UOM,'') AS UOM,ISNULL(D.QUANTITY,0) AS QUANTITY,ISNULL(D.RATE,0) AS RATE,ISNULL(D.DISCOUNT,0) AS DISCOUNT,
+	ISNULL(D.TOTAL,0) AS TOTAL,ISNULL(H.ADDDATETIME,'') AS ADDDATETIME 
+FROM PO_HDR AS H 
+INNER JOIN PO_ITEMDETAILS AS D ON D.PONO = H.PONO 
+LEFT OUTER JOIN PO_VIEW_ITEMMASTER AS P ON D.ITEMCODE = P.ITEMCODE 
+LEFT OUTER JOIN  PO_VIEW_VENDORMASTER AS A ON H.POVENDORCODE = A.VENDORCODE
+
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
+--- select * from po_view_vendormaster where vendorcode = 'test'
+
+CREATE     view PO_VIEW_VENDORMASTER
+
+as 
+
+select isnull(slcode,'') as vendorcode,isnull(slname,'') as vendorname
+ from accountssubledgermaster where accode = '10015'
+---SP_HELP select * from accountssubledgermaster
+union
+
+select isnull(vendorcode,'') as vendorcode,isnull(vendorname,'') as vendorname
+from po_vendormaster
+---SP_HELP po_vendormaster
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
+
+
+--select * from po_hdr
+--select * from po_AMENDMENT
+-- select * from PO_VW_AMENDEMNTREPORT
+
+
+CREATE       VIEW PO_VW_AMENDEMNTREPORT
+AS
+SELECT     isnull(P.pono,'') as pono, isnull(P.podate,'') as podate, isnull(P.podepartment,'') as podepartment,
+	   isnull(P.povendorcode,'') as VENDORCODE,
+	   isnull(A.poamendmentno,'') as amendmentno, isnull(A.pono,'') as apono, 
+	   isnull(A.poamendmentdesc,'') as amendmentdesc
+
+from po_hdr as P INNER JOIN po_amendment as A on P.pono = A.pono
+
+
+
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
+-- select * from po_vw_amendment
+CREATE  view PO_VW_AMENDMENT
+AS
+select isnull(P.pono,'') as pono, isnull(P.podate,'') as podate, isnull(P.podepartment,'') as podepartment,
+isnull(A.poamendmentno,'') as amendmentno, isnull(A.pono,'') as apono, isnull(A.poamendmentdesc,'') as amendmentdesc
+from po_hdr as P
+inner join po_amendment as A on P.pono = A.pono
+group by P.pono,P.podate,P.podepartment,A.poamendmentno,A.pono,A.poamendmentdesc
+-- sp_help select * from po_amendment
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
+
+-- select * from po_vw_followup
+-- SP_HELP PO_VW_followup
+CREATE    view PO_VW_FOLLOWUP
+AS
+select isnull(P.pono,'') as pono, isnull(P.podate,'') as podate, isnull(P.podepartment,'') as podepartment,
+isnull(F.poFOLLOWUPNO,'') as amendmentno, isnull(F.pono,'') as apono, isnull(F.poFOLLOWUPdesc,'') as amendmentdesc,
+ isnull(P.povendorcode,'') as VENDORCODE
+from po_hdr as P
+inner join po_followup as F on P.pono = F.pono
+group by P.pono,P.podate,P.podepartment,F.poFOLLOWUPNo,F.pono,F.poFOLLOWUPdesc,P.POVENDORCODE
+-- sp_help select * from po_followup
+
+/* isnull(P.pono,'') as pono, isnull(P.podate,'') as podate, isnull(P.podepartment,'') as podepartment,
+	   isnull(P.povendorcode,'') as VENDORCODE,
+	   isnull(A.poamendmentno,'') as amendmentno, isnull(A.pono,'') as apono, 
+	   isnull(A.poamendmentdesc,'') as amendmentdesc
+*/
+
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+
+
