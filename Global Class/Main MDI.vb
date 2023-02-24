@@ -505,7 +505,7 @@ Public Class Main_MDI
         '
         'Main_MDI
         '
-        Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
+        Me.AutoScaleBaseSize = New System.Drawing.Size(8, 19)
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(1024, 575)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D

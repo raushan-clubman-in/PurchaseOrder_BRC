@@ -879,7 +879,7 @@ Public Class po_workorderbook1
         Me.ssgrid_billdetails.Location = New System.Drawing.Point(25, 50)
         Me.ssgrid_billdetails.Name = "ssgrid_billdetails"
         Me.ssgrid_billdetails.OcxState = CType(resources.GetObject("ssgrid_billdetails.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.ssgrid_billdetails.Size = New System.Drawing.Size(1855, 756)
+        Me.ssgrid_billdetails.Size = New System.Drawing.Size(2782, 1134)
         Me.ssgrid_billdetails.TabIndex = 11
         '
         'Label2
@@ -1205,7 +1205,7 @@ Public Class po_workorderbook1
         Me.ssgrid.Location = New System.Drawing.Point(201, 263)
         Me.ssgrid.Name = "ssgrid"
         Me.ssgrid.OcxState = CType(resources.GetObject("ssgrid.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.ssgrid.Size = New System.Drawing.Size(834, 216)
+        Me.ssgrid.Size = New System.Drawing.Size(1251, 324)
         Me.ssgrid.TabIndex = 7
         '
         'cmd_export
@@ -2163,7 +2163,7 @@ Public Class po_workorderbook1
                         cmd.Parameters.Add("@UPDATEUSER", SqlDbType.VarChar, 20).Value = Trim(gUsername)
                         cmd.Parameters.Add("@UPDATEDATE", SqlDbType.DateTime).Value = Format(Now, "dd-MMM-yyyy hh:mm:ss")
                         cmd.ExecuteNonQuery()
-                        '  sqlstring = "INSERT INTO Hrn_details(Grnno,Grndetails,Grndate,Suppliercode,Suppliername,Itemname,Qty,Rate,Discount,Amount,Adduser,Adddate,UpdateUser,Updatetime)"
+                        'sqlstring = "INSERT INTO Hrn_details(Grnno,Grndetails,Grndate,Suppliercode,Suppliername,Itemname,Qty,Rate,Discount,Amount,Adduser,Adddate,UpdateUser,Updatetime)"
                         'sqlstring = " INSERT INTO po_workorderbook_DET1 (WO_NO,wodetails,WODATE,SINO,WORKDESC,UNIT,QTY,RATE,AMOUNT,"
                         'sqlstring = sqlstring & "ADDUSER,ADDDATE,UPDATEUSER,UPDATEDATE)"
                         'sqlstring = sqlstring & " VALUES('" & CStr(WHOno(1)) & "','" & Trim(txt_WHOno.Text) & "','" & Format(CDate(dtp_WHOdate.Value), "dd-MMM-yyyy ") & "',"
@@ -2502,9 +2502,11 @@ Public Class po_workorderbook1
             Dim SSQL55 As String = "SELECT coldesc,povalue FROM [vW_WO_TAX_DET] WHERE  WODETAILS = '" & Trim(txt_WHOno.Text) & "'"
             gconnection.getDataSet(SSQL55, "wotaxx")
 
+            Call Viewer.GetDetails1(SSQL55, "vW_WO_TAX_DET", r)
+
             Call Viewer.GetDetails1(sqlstring, "VW_PO_WOBBILL2", r)
 
-            Call Viewer.GetDetails1(SSQL55, "vW_WO_TAX_DET", r)
+
 
             If gdataset.Tables("VW_PO_WOBBILL2").Rows.Count > 0 Then
                 rViewer.ssql = sqlstring
@@ -3141,7 +3143,8 @@ Public Class po_workorderbook1
                             ssgrid.SetText(4, I, Trim(gdataset.Tables("GRNDETAILS").Rows(J).Item("UNIT")))
                             ssgrid.SetText(3, I, Format(Val(gdataset.Tables("GRNDETAILS").Rows(J).Item("QTY")), "0.00"))
                             ssgrid.SetText(5, I, Format(Val(gdataset.Tables("GRNDETAILS").Rows(J).Item("RATE")), "0.00"))
-                            ssgrid.SetText(6, I, Format(Val(gdataset.Tables("GRNDETAILS").Rows(J).Item("TAxCoDE")), "0.00"))
+                            'ssgrid.SetText(6, I, Format(Val(gdataset.Tables("GRNDETAILS").Rows(J).Item("TAxCoDE")), "0.00"))
+                            ssgrid.SetText(6, I, Trim(gdataset.Tables("GRNDETAILS").Rows(J).Item("TAxCoDE")))
                             ssgrid.SetText(7, I, Format(Val(gdataset.Tables("GRNDETAILS").Rows(J).Item("TAXPER")), "0.00"))
                             ssgrid.SetText(8, I, Format(Val(gdataset.Tables("GRNDETAILS").Rows(J).Item("TAXAMT")), "0.00"))
                             ssgrid.SetText(9, I, Format(Val(gdataset.Tables("GRNDETAILS").Rows(J).Item("AMOUNT")), "0.00"))
